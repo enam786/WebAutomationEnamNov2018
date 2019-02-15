@@ -12,9 +12,6 @@ import javax.xml.xpath.XPath;
 
 public class MainPage extends CommonAPI{
 
-    Helper logHelper;
-
-
     @FindBy(css = "#nav-hamburger-menu")
     public static WebElement menu;
     @FindBy(xpath = "//span[@class='nav-sprite nav-logo-base']")
@@ -114,163 +111,162 @@ public class MainPage extends CommonAPI{
 
 
     public void checkMenu(){
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         menu.click();
        // System.out.println(menu.getText());
     }
     public void checkLogo() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         logo.click();
     }
     public void checkAllKeyInSearch() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         allKeyInSearch.click();
     }
     public void CheckSearchField() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         searchField.sendKeys("Breitling Watch", Keys.TAB );
     }
     public void checkSubmitButton() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         submitButton.click();
     }
     public void checkValentineGift() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         valentineGift.click();
     }
     public void checkDeliverTo() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         deliverTo.click();
     }
     public void checkYourAmazon() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         yourAmazon.click();
     }
     public void checkTodaysDeal() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         todaysDeal.click();
     }
     public void checkGiftCards() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         giftCards.click();
     }
     public void checkWholeFoods() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         wholeFoods.click();
     }
     public void checkRegistry() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         registry.click();
     }
     public void checkSell() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         sell.click();
     }
     public void checkEN() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         EN.click();
     }
     public void checkSignIn() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         signIn.click();
     }
     public void checkOrders() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         Orders.click();
     }
     public void checkPrime() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         prime.click();
     }
     public void checkCart() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         cart.click();
         String str = cart.getText();
         System.out.println(str);
     }
     public void checkRecommendation() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         recommendation.click();
     }
     public void checkBackToTop() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         backToTop.click();
     }
     public void checkCareers() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         careers.click();
     }
     public void checkBlog() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         blog.click();
     }
     public void checkAboutAmazon() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         aboutAmazon.click();
     }
     public void checkPress() {
-
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         press.click();
     }
     public void checkInvestorRelation() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         investorRelation.click();
     }
     public void checkAmazonDevices() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         amazonDevices.click();
     }
     public void checkSellOnAmazon() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         sellOnAmazon.click();
     }
     public void checkPrivateBrands() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         privateBrands.click();
     }
     public void checkAmazonHandmade() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         amazonHandmade.click();
     }
     public void checkSellYourService() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         sellYourService.click();
     }
     public void checkSeeAll() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         seeAll.click();
     }
     public void checkAmazonLogo() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         amazonLogo.click();
     }
     public void checkChooseLanguage() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         chooseLanguage.click();
     }
     public void checkUsButton() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         usButton.click();
     }
     public void checkAmazonMusic() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         amazonMusic.click();
     }
     public void checkAmazonWebService() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         amazonWebService.click();
     }
     public void checkSecondChance() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         secondChance.click();
     }
     public void checkConditionOfUse() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         conditionOfUse.click();
     }
     public void checkTakeALook() {
-        logHelper.logger();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         takeALook.click();
     }
 

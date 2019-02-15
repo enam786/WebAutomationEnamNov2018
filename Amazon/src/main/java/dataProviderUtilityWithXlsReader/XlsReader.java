@@ -8,7 +8,6 @@ public class XlsReader {
 
     public String path;
     public FileInputStream fis = null;
-    //XSSFWorkbook
     private HSSFWorkbook workbook = null;
     private HSSFSheet sheet = null;
     private HSSFRow row = null;
@@ -19,15 +18,13 @@ public class XlsReader {
         this.path = path;
         try {
             fis = new FileInputStream(path);
-            /// workbook = new XSSFWorkbook(fis);
             workbook = new HSSFWorkbook(fis);
-            sheet = workbook.getSheetAt(0); //koto number sheet bujhaise
+            sheet = workbook.getSheetAt(0);
             fis.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    // below -- returns the row count in a sheet
 
     public int getRowCount(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);

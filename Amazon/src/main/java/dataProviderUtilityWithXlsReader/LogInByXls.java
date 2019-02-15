@@ -8,13 +8,13 @@ import org.testng.annotations.DataProvider;
 import java.util.ArrayList;
 import java.util.Iterator;
 public class LogInByXls extends CommonAPI {
-    @FindBy(xpath = "//a[text()='MyChart']")
-    public static WebElement myChart;
-    @FindBy(xpath = "//form[@id='loginForm']//p[@class='input_treatment']")
+    @FindBy(css = ".nav-action-inner ")
+    public static WebElement signin;
+    @FindBy(xpath = "#ap_email")
     public static WebElement userName;
-    @FindBy(xpath = "//input[@name='Password']")
+    @FindBy(xpath = "#ap_password")
     public static WebElement passwordField;
-    @FindBy(xpath = "//form[@id='loginForm']//button[@class='btn btn-large' ]")
+    @FindBy(xpath = "#signInSubmit")
     public static WebElement logInSubmitButton;
 
     @DataProvider
@@ -25,7 +25,7 @@ public class LogInByXls extends CommonAPI {
     }
     public void signInByDataProvider(String email, String password) throws Exception{
         Thread.sleep(3000);
-        myChart.click();
+        signin.click();
         userName.sendKeys(email);
         passwordField.sendKeys(password);
         logInSubmitButton.click();

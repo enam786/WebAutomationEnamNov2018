@@ -426,7 +426,12 @@ public class CommonAPI {
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
     }
-
+ ////////
+    public void logger(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+    }
+//////////
     //iFrame Handle
     public void iframeHandle(WebElement element){
         driver.switchTo().frame(element);
