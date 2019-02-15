@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30c78704-68e4-49e7-a095-3cd93215009b" name="Default Changelist" comment="" />
+    <list default="true" id="30c78704-68e4-49e7-a095-3cd93215009b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testGoogleSheetReader/TestGoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testGoogleSheetReader/TestGoogleSheetReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -17,11 +66,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/helper/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="160">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/googleSheetReader/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2022">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,6 +140,9 @@
       <find>url</find>
       <find>screenshot</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,12 +186,12 @@
         <option value="$PROJECT_DIR$/Amazon/src/main/java/bodyCarousel/BodyCarousel.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/helper/Helper.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/helper/Helper.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/tableData/TestTable.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
   </component>
@@ -122,17 +222,17 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="490" />
-    <option name="width" value="1375" />
-    <option name="height" value="840" />
+    <option name="x" value="110" />
+    <option name="y" value="36" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,13 +249,31 @@
               <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
               <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
               <item name="Amazon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
@@ -172,14 +290,34 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testGoogleSheetReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationFrameWorkEnam2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationFrameWorkEnam2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550196610439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550236149604" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileNov2018" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -212,11 +350,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestTable.readAllRowOfTable">
-    <configuration name="C:/Users/ENAM/IdeaProjects/WebAutomationFrameWorkEnam2018/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testMenu">
+    <configuration name="TestGoogleSheetReader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testGoogleSheetReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testGoogleSheetReader" />
+      <option name="MAIN_CLASS_NAME" value="testGoogleSheetReader.TestGoogleSheetReader" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -277,31 +439,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTable.readTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tableData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tableData" />
-      <option name="MAIN_CLASS_NAME" value="tableData.TestTable" />
-      <option name="METHOD_NAME" value="readTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testMenu" />
+        <item itemvalue="TestNG.TestGoogleSheetReader" />
         <item itemvalue="TestNG.TestTable.readAllRowOfTable" />
         <item itemvalue="TestNG.TestTable.readCellOfAnyRowOfATable" />
         <item itemvalue="TestNG.TestTable.readAnyRowOfTable" />
-        <item itemvalue="TestNG.TestTable.readTable" />
-        <item itemvalue="TestNG.C:/Users/ENAM/IdeaProjects/WebAutomationFrameWorkEnam2018/Amazon/src/test/resources/AmazonTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -319,12 +463,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testBlog - 2019.02.13 at 15h 35m 16s.xml">
-      <configuration name="TestMainPage.testBlog" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testInvestorRelation - 2019.02.13 at 15h 38m 44s.xml">
-      <configuration name="TestMainPage.testInvestorRelation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testPress - 2019.02.13 at 15h 44m 51s.xml">
       <configuration name="TestMainPage.testPress" configurationId="TestNG" />
     </history-entry>
@@ -349,6 +487,12 @@
     <history-entry file="TestTable_readAllRowOfTable - 2019.02.14 at 21h 10m 11s.xml">
       <configuration name="TestTable.readAllRowOfTable" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestGoogleSheetReader - 2019.02.15 at 01h 19m 04s.xml">
+      <configuration name="TestGoogleSheetReader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testMenu - 2019.02.15 at 08h 04m 47s.xml">
+      <configuration name="TestMainPage.testMenu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,8 +505,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,12 +516,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32708934" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19350283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19350283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32768363" />
@@ -763,30 +908,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3885">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2651">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,16 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/googleSheetReader/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3420">
@@ -846,8 +951,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/helper/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="160">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testGoogleSheetReader/TestGoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/googleSheetReader/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2022">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,7 +25,7 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
     @Test (enabled = false)
     public void testLogInByInvalidIdPasswordUsingGoogleSheet() throws IOException, InterruptedException {
         int i = 0;
-        String spreadsheetId = "1ZgLFVLXMXfG0CZLErvLrda8_OsLcj81k1Y4F4Aog2T4";
+        String spreadsheetId = "1W6_ZvOpi10VIzWi3tzFX5DixYSWpkQie1uDeG9111kE";
         String range = "Sheet1!A2:B";
 
         //List<String> actualErrorMessage = googleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
@@ -43,7 +43,7 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
         try{
             int i = 0;
             Thread.sleep(3000);
-            String spreadsheetId = "1ZgLFVLXMXfG0CZLErvLrda8_OsLcj81k1Y4F4Aog2T4";
+            String spreadsheetId = "1W6_ZvOpi10VIzWi3tzFX5DixYSWpkQie1uDeG9111kE";
             String range = "Sheet1!A2:B";
             List<List<Object>> expectedErrorMessage = googleSheetPage.getSpreadSheetRecords(spreadsheetId, range);
             List<String> actualErrorMessage = googleSheetPage.signInByInvalidIdPass(spreadsheetId, range);
