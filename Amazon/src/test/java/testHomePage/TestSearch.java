@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class TestSearch extends Search {
-    public String keys = "Phones";
+    public String searchkeys = "Phones";
 
     Search search;
 
@@ -21,13 +21,13 @@ public class TestSearch extends Search {
     public void testSearchWithEnter(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
-        searchWithENTER(keys);
+        searchWithENTER(searchkeys);
     }
     @Test
     public void testSearchWithButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
-        searchUsingButton(keys);
+        searchUsingButton(searchkeys);
     }
 }
 

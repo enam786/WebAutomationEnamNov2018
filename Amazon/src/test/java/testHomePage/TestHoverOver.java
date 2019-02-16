@@ -17,7 +17,7 @@ public class TestHoverOver extends HoverOver {
     @Test(enabled = true, priority = 3)
     public void testAboutUs () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkAboutUs();
+        hoverOver.checkHelloSignin();
     }
     @Test(enabled = true, priority = 2)
     public void testListOfHoverOver() throws Exception{

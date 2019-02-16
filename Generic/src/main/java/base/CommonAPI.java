@@ -399,7 +399,7 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
+            System.out.println(element.getText());
         }
 
     }

@@ -2,7 +2,6 @@ package homePage;
 
 
 import base.CommonAPI;
-import helper.Helper;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -126,6 +125,7 @@ public class MainPage extends CommonAPI{
     public void CheckSearchField() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         searchField.sendKeys("Breitling Watch", Keys.TAB );
+
     }
     public void checkSubmitButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));

@@ -1,4 +1,4 @@
-package dataProviderUtilityWithXlsReader;
+package TestDataProviderUtilityWithXlsReader;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -7,7 +7,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 
 import java.io.FileInputStream;
 import java.util.Iterator;
-public class XlsReaderTest {
+public class TestXlsReader {
     public static void main(String[] args) throws Exception{
         String excelFilePath = "/Users/mohammadsharkar/Desktop/Rest 11172018/newTofael/FrameWorkTofaelSeptember2018/H&M/data/HnMDataReader.xls";
         FileInputStream fileInputStream = new FileInputStream(excelFilePath);

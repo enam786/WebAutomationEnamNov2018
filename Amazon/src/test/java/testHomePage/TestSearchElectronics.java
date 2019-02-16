@@ -10,6 +10,8 @@ import java.io.IOException;
 public class TestSearchElectronics extends SearchElectronics {
     SearchElectronics searchElectronics;
     @Test
+
+    // try to figure out submitbutton locator
     public void testSearchDoctorsBySubmitButton()throws IOException {
         searchElectronics = PageFactory.initElements(driver, SearchElectronics.class);
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

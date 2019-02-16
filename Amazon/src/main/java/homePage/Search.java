@@ -9,13 +9,10 @@ import reporting.TestLogger;
 
 public class Search extends CommonAPI {
 
-//    @FindBy(xpath = "//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")
-//    public static WebElement search;
-
     @FindBy(css = "#twotabsearchtextbox")
     public static WebElement searchField;
 
-    @FindBy(xpath = "//*[@class='nav-searchbar']//*[@id='nav-search-submit-text']")
+    @FindBy(xpath = "//*[@id='nav-search-submit-text']")
     public static WebElement searchButton;
 
 
@@ -29,13 +26,13 @@ public class Search extends CommonAPI {
     public void searchWithENTER(String searchKeys){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
-        //waitToBeVisible();
+        waitToBeVisible(searchField);
         searchField.sendKeys(searchKeys, Keys.ENTER);
     }
     public void searchUsingButton(String searchKeys){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
-        //waitToBeVisible();
+        waitToBeVisible(searchButton);
         searchField.sendKeys(searchKeys);
         searchButton.click();
     }
