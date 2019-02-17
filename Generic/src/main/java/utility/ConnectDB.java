@@ -22,7 +22,7 @@ public class ConnectDB {
 
     public static Properties loadProperties() throws IOException {
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/MySql.properties");
+        InputStream ism = new FileInputStream("app.properties");
         prop.load(ism);
         ism.close();
         return prop;

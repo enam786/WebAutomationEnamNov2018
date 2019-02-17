@@ -51,15 +51,6 @@ public class BodyCarousel extends CommonAPI {
             newName = driver.findElement(By.cssSelector(selector + "[" + index + "]")).getText();
             list2.add(newName);
         }
-
-        /*
-        //Then we compare the two arrayLists are not the same
-        ArrayList commonList = CollectionUtils.retainAll(list1, list2);
-
-        Assert.assertTrue(commonList.size() == 0);
-        */
-
-        //Then we compare the two arrayLists are not the same
         Set<String> newSet = new HashSet<String>(list1);
 
         newSet.addAll(list2);

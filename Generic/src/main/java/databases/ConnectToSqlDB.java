@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("WebAutomationFrameWorkEnam2018\\Generic\\src\\secretProperties.txt");
+        InputStream ism = new FileInputStream("C:\\Users\\ENAM\\IdeaProjects\\WebAutomationFrameWorkEnam2018\\Amazon\\src\\main\\java\\db.readAndWriteDataFromDatabase\\app.properties");
 
         prop.load(ism);
         ism.close();
