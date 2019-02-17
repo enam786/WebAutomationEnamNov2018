@@ -1,4 +1,7 @@
 package test.java;
+import io.restassured.response.Response;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class SingleEmployeeResource {
 
@@ -26,9 +29,9 @@ public class SingleEmployeeResource {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();//json.simple.JSONObject
-        jsonObject.put("empName", "Tofael");
-        jsonObject.put("empEmail", "tofael483@gmail.com");
-        jsonObject.put("department", "SeniorQA");
+        jsonObject.put("empName", "enam");
+        jsonObject.put("empEmail", "enam@gmail.com");
+        jsonObject.put("department", "tester");
         request.body(jsonObject.toJSONString());
         Response response = request.post("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources");
         System.out.println(jsonObject);
@@ -38,9 +41,9 @@ public class SingleEmployeeResource {
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("empName", "TofaelKabir");
-        jsonObject.put("empEmail", "tofael483@gmail.com");
-        jsonObject.put("department", "QALead");
+        jsonObject.put("empName", "enam");
+        jsonObject.put("empEmail", "enam@gmail.com");
+        jsonObject.put("department", "dev");
         request.body(jsonObject.toJSONString());
         Response response = request.put("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/5c4be63e2fc21350f886bdd6");
         System.out.println(jsonObject);

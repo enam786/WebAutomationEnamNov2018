@@ -15,11 +15,11 @@ import static googleAPIs.GoogleSheetReader.getSheetsService;
 
 
 public class GoogleSheetPage extends CommonAPI {
-    @FindBy(xpath = "//a[text()='MyChart']")
+    @FindBy(xpath = "//a[text()='googleSheet']")
     public static WebElement myChart;
-    @FindBy(xpath = "//form[@id='loginForm']//p[@class='input_treatment']")
+    @FindBy(xpath = "//*[text()='Username']")
     public static WebElement userName;
-    @FindBy(xpath = "//input[@name='Password']")
+    @FindBy(xpath = "//*[text()='Password']")
     public static WebElement password;
     @FindBy(xpath = "//form[@id='loginForm']//button[@class='btn btn-large' ]")
     public static WebElement logInSubmitButton;
