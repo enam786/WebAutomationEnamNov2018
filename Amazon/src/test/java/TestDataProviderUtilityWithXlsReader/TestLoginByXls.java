@@ -8,7 +8,7 @@ import reporting.TestLogger;
 import utility.DataReader;
 
 public class TestLoginByXls extends LogInByXls {
-    DataReader dtr = new DataReader();
+    DataReader reader = new DataReader();
 
     LogInByXls logInByXls;
 

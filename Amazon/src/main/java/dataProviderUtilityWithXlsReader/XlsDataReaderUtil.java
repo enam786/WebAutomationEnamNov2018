@@ -7,7 +7,7 @@ public class XlsDataReaderUtil {
 
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
-            reader = new XlsReader("/Users/mohammadsharkar/Desktop/tk/BlueGrass/mtSinai/data/MountSinaiDataReader.xls");
+            reader = new XlsReader("C:\\Users\\ENAM\\IdeaProjects\\WebAutomationFrameWorkEnam2018\\Amazon\\src\\main\\java\\dataProviderUtilityWithXlsReader\\testData.xlsx");
         }
         catch (Exception e){
             e.printStackTrace();
