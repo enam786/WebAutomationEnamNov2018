@@ -1,2 +1,3 @@
-token/
-target/
+token/*
+target/*
+*.iml
