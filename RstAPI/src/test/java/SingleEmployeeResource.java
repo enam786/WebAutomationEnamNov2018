@@ -1,10 +1,13 @@
-package test.java;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SingleEmployeeResource {
+import static io.restassured.RestAssured.given;
 
+public class SingleEmployeeResource {
     @Test
     public void callSingleEmployeeResources() {
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/590a4acd35522970c7956cdf").then().statusCode(200).extract().response();
@@ -15,7 +18,7 @@ public class SingleEmployeeResource {
         Assert.assertEquals(statusCode, 200);
     }
     @Test
-    public void callSingleEmployeeSharkarMohammad() {
+    public void callSingleEmployeeEnam() {
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/590a4ada35522970c7956ce2").then().statusCode(200).extract().response();
         String statusLine = response.getStatusLine();
         int statusCode = response.getStatusCode();

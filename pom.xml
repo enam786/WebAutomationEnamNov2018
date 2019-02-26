@@ -11,7 +11,7 @@
     <modules>
         <module>Amazon</module>
         <module>Generic</module>
-        <module>RestAPI</module>
+        <module>RstAPI</module>
 
 
     </modules>

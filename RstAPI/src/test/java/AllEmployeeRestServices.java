@@ -1,12 +1,10 @@
-package test.java;
-import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
+import io.restassured.response.Response;
 
+import static io.restassured.RestAssured.given;
 
-public class AllEmployeeRestServices  {
-
+public class AllEmployeeRestServices {
     //https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=a104f9105b384c15b810feafd3fa56be
 
 

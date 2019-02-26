@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>RestAPI</artifactId>
-
+    <artifactId>RstAPI</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.amazon</groupId>
@@ -25,7 +24,7 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <scope>test</scope>
+            <version>3.3.0</version>
         </dependency>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
@@ -57,7 +56,5 @@
             </plugin>
         </plugins>
     </build>
-
-
 
 </project>

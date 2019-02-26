@@ -266,6 +266,7 @@ public class MainPage extends CommonAPI{
         conditionOfUse.click();
     }
     public void checkTakeALook() {
+
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         takeALook.click();
     }

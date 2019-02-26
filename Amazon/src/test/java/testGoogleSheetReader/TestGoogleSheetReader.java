@@ -3,6 +3,7 @@ package testGoogleSheetReader;
 import googleSheetReader.GoogleSheetPage;
 import googleSheetReader.GoogleSheetReader;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,7 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
     }
 
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void testLogInByInvalidIdPasswordUsingGoogleSheet() throws IOException, InterruptedException {
         int i = 0;
         String spreadsheetId = "1W6_ZvOpi10VIzWi3tzFX5DixYSWpkQie1uDeG9111kE";
@@ -32,9 +33,9 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
         List<List<Object>> expectedErrorMessage = googleSheetPage.getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {
             // Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
-            //System.out.println("expected"+row.get(3).toString());
+            System.out.println("expected"+row.get(3).toString());
             System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
-            //i++;
+            i++;
         }
         System.out.println("testLogInByInvalidIdPasswordUsingGoogleSheet Passed");
     }
@@ -48,12 +49,12 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
             List<List<Object>> expectedErrorMessage = googleSheetPage.getSpreadSheetRecords(spreadsheetId, range);
             List<String> actualErrorMessage = googleSheetPage.signInByInvalidIdPass(spreadsheetId, range);
 
-           /* for(List row : expectedErrorMessage){
+            for(List row : expectedErrorMessage){
                 Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
                 System.out.println("expected"+row.get(3).toString());
                 System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
                 i++;
-            }*/
+            }
             System.out.println("testLogInUsingGoogleSheet Passed");
         }
         catch (Exception e){
@@ -61,6 +62,8 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
             System.out.println("testLogInUsingGoogleSheet Failed");
         }
     }
+
+
     @Test (enabled = false)
     public void testLogin() throws Exception{
         googleSheetPage.loginTest("aaabb@ccc.ccc", "12345");

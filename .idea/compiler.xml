@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Generic" />
-        <module name="RestAPI" />
+        <module name="RstAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

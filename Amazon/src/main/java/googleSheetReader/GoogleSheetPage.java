@@ -15,13 +15,13 @@ import static googleAPIs.GoogleSheetReader.getSheetsService;
 
 
 public class GoogleSheetPage extends CommonAPI {
-    @FindBy(xpath = "//a[text()='googleSheet']")
+    @FindBy(css = "#a-autoid-0-announce")
     public static WebElement myChart;
-    @FindBy(xpath = "//*[text()='Username']")
+    @FindBy(css = "#ap_email")
     public static WebElement userName;
-    @FindBy(xpath = "//*[text()='Password']")
+    @FindBy(css = "#ap_password")
     public static WebElement password;
-    @FindBy(xpath = "//form[@id='loginForm']//button[@class='btn btn-large' ]")
+    @FindBy(css = "#signInSubmit")
     public static WebElement logInSubmitButton;
 
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
@@ -50,6 +50,7 @@ public class GoogleSheetPage extends CommonAPI {
             WebDriverWait wait = new WebDriverWait(driver, 3);
             wait.until(ExpectedConditions.elementToBeClickable(logInSubmitButton));
             logInSubmitButton.click();
+            getTextByWebElement(logInSubmitButton);
             //actual.add(getCurrentPageTitle());
             // actual.add(getTextByWebElement(errorMsg));
             //System.out.println(getTextByWebElement(errorMsg));
